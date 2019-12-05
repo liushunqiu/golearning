@@ -17,3 +17,7 @@ func CustomSqrt() {
 func CustomPi() {
 	fmt.Println("pi:", math.Pi)
 }
+
+func CustomAbs() {
+	fmt.Println("Abs", math.Abs(-2))
+}

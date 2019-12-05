@@ -10,6 +10,7 @@ func main() {
 	basic.CustomRand()
 	basic.CustomSqrt()
 	basic.CustomPi()
+	basic.CustomAbs()
 	fmt.Println(basic.Add(1, 2))
 	a, b := basic.Swap("222", "123123123")
 	fmt.Println(a, b)
