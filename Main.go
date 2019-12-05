@@ -14,4 +14,7 @@ func main() {
 	fmt.Println(basic.Add(1, 2))
 	a, b := basic.Swap("222", "123123123")
 	fmt.Println(a, b)
+	basic.CustomFor(100)
+	var vertx = basic.Vertx{"java"}
+	fmt.Println("\r\n", vertx.Source)
 }
