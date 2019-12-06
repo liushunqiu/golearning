@@ -15,3 +15,9 @@ func CustomFor(end int) {
 		fmt.Print(i)
 	}
 }
+
+func CustomRange(mapInt []int) {
+	for k, v := range mapInt {
+		fmt.Println(k, v)
+	}
+}

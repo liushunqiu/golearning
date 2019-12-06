@@ -17,4 +17,7 @@ func main() {
 	basic.CustomFor(100)
 	var vertx = basic.Vertx{"java"}
 	fmt.Println("\r\n", vertx.Source)
+	var mapInt = []int{1, 2, 4, 5, 6, 7, 7, 8}
+	basic.CustomRange(mapInt)
+	fmt.Println(vertx.Abs())
 }
