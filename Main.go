@@ -20,4 +20,7 @@ func main() {
 	var mapInt = []int{1, 2, 4, 5, 6, 7, 7, 8}
 	basic.CustomRange(mapInt)
 	fmt.Println(vertx.Abs())
+	basic.CustomRead()
+	go basic.Say("aaa")
+	basic.Say("zzz")
 }
