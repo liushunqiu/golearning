@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"golearning/basic"
+	"golearning/web"
 )
 
 func main() {
@@ -23,4 +24,8 @@ func main() {
 	basic.CustomRead()
 	go basic.Say("aaa")
 	basic.Say("zzz")
+	//web.WebStore()
+	//web.DymicStaticStore()
+	//web.MuxWeb()
+	web.CustomJson()
 }
