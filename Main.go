@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"golearning/basic"
-	"golearning/web"
 )
 
 func main() {
@@ -27,5 +26,6 @@ func main() {
 	//web.WebStore()
 	//web.DymicStaticStore()
 	//web.MuxWeb()
-	web.CustomJson()
+	//web.CustomJson()
+	basic.GetLocalIp()
 }
